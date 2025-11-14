@@ -23,7 +23,7 @@ try {
 }
 
 // Get environment variables with fallbacks
-const SUPABASE_URL = process.env.VITE_SUPABASE_URL || envConfig.VITE_SUPABASE_URL || 'https://weonltiidlnpgvanwvba.supabase.co';
+const SUPABASE_URL = process.env.VITE_SUPABASE_URL || envConfig.VITE_SUPABASE_URL || 'https://gvjswplhfjcreqbrgwhr.supabase.co';
 
 // Use service role key for admin operations
 const SUPABASE_SERVICE_ROLE_KEY = process.env.SUPABASE_SERVICE_ROLE_KEY || envConfig.SUPABASE_SERVICE_ROLE_KEY;

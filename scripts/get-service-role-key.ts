@@ -6,7 +6,7 @@ To populate your database with sample data, you need to add the Supabase Service
 
 Steps to get your Service Role Key:
 
-1. Go to your Supabase project dashboard at https://app.supabase.com/project/weonltiidlnpgvanwvba
+1. Go to your Supabase project dashboard at https://app.supabase.com/project/gvjswplhfjcreqbrgwhr
 2. Click on the "Settings" gear icon in the left sidebar
 3. Click on "API" in the settings menu
 4. Scroll down to the "Service Role Key" section

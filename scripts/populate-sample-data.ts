@@ -23,7 +23,7 @@ try {
 }
 
 // Get environment variables with fallbacks
-const SUPABASE_URL = process.env.VITE_SUPABASE_URL || envConfig.VITE_SUPABASE_URL || 'https://weonltiidlnpgvanwvba.supabase.co';
+const SUPABASE_URL = process.env.VITE_SUPABASE_URL || envConfig.VITE_SUPABASE_URL || 'https://gvjswplhfjcreqbrgwhr.supabase.co';
 
 // Use service role key for bypassing RLS policies (this should only be used in scripts, never in frontend code)
 // The service role key is different from the anon key and has full access to the database
@@ -33,7 +33,7 @@ const SUPABASE_SERVICE_ROLE_KEY = process.env.SUPABASE_SERVICE_ROLE_KEY || envCo
 const SUPABASE_KEY = SUPABASE_SERVICE_ROLE_KEY || 
                     process.env.VITE_SUPABASE_PUBLISHABLE_KEY || 
                     envConfig.VITE_SUPABASE_PUBLISHABLE_KEY || 
-                    'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Indlb25sdGlpZGxucGd2YW53dmJhIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NjExNzgzMzAsImV4cCI6MjA3Njc1NDMzMH0.0DS5-ILmlYMYygWrJKfyv2qcS-5kS505KmM4vZPKtX8';
+                    'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Imd2anN3cGxoZmpjcmVxYnJnd2hyIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NjI5MzM4ODMsImV4cCI6MjA3ODUwOTg4M30.LUFTyhoRrEhaGl7ibfFzfYfEbTPOL0bH0IOVU-Fnyz4';
 
 console.log('Using Supabase URL:', SUPABASE_URL);
 console.log('Using service role key:', !!SUPABASE_SERVICE_ROLE_KEY);
